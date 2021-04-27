@@ -1,0 +1,120 @@
+body {
+    background-color: gray;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas,
+     'Courier New', monospace;    
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    width: 16.75em;
+    height: 2.75em;
+}
+button:hover {
+    background-color: yellow;
+    border: solid .25em black;
+}
+button:focus {
+    background-color: black;
+    border: solid .25em yellow;
+    color: yellow;
+}
+.startButton {
+    margin: 15vh 42.5vw 0;
+}
+.header{
+    background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/2020/05/lego-star-wars-skywalker-saga-01_TALL-1024x576.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 40%;
+    height: 40vh;
+    color: #feda4a;
+    letter-spacing: 6px;
+    text-align: center;
+
+    
+    .headline {
+        opacity: 0.75;
+        perspective: 100px;
+        font-weight: 600;
+    }
+    .subheader{
+        opacity: 0.75;
+        margin: 40vh 0 -40vh 0;
+    }
+}
+.mainContent {
+    position: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5em 0 0 5em;
+    width: 75%;
+    height: 25em;
+    
+    .filmsSection {
+        display: flex;
+        flex-direction: column;
+        width: 25em;
+        margin-left: 8em;
+    
+    }
+    .starshipSection {
+        display: flex;
+        flex-direction: column;
+        width: 25em;
+        margin-left: 1.5em;
+    }
+    .pilotsSection {
+        display: flex;
+        flex-direction: column;
+        width: 25em;
+        margin-left: 2.5em;
+    }
+    .favoritePilotsSection {
+        display: flex;
+        flex-direction: column;
+        width: 25em;
+        margin-left: 5em;
+
+        .favoritePilot {      
+            font-weight: bold;
+            width: 16.75em;
+            height: 2.25em;
+            background-color: black;
+            border: solid .125em yellow;
+            color: yellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.125em;
+            margin-bottom: 0.25em;
+
+            .removeFavoritePilotButton {
+                margin-top: 1.35em;
+                align-self: center;
+                color: yellow;
+                width: 2.65em;
+                height: 2.65em;
+                cursor: pointer;
+            }
+        }
+    }
+}
