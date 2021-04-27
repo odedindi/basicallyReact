@@ -1,0 +1,106 @@
+@keyframes input {
+    from {border-bottom: 2px solid #999}
+    to {border-bottom: 2px solid #f20f37;}
+  }
+
+.custom-input {
+    border: none;
+    color: #AAAAAA i !important;
+    font-weight: 400;
+    line-height: 1.42857;
+    letter-spacing: unset;
+    border-bottom: 1px solid #999;
+    height: 2em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 1rem;
+    padding-bottom: 0;
+    background-color: transparent;
+    width: 85%;
+}
+
+.custom-input:focus {
+    animation-name: input;
+    animation-duration: 0.5s;
+    border-bottom: 2px solid #f20f37;
+}
+
+.custom-input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.custom-button {
+    box-shadow: 0 2px 2px 0 rgb(242 15 55 / 14%), 0 3px 1px -2px rgb(242 15 55 / 20%), 0 1px 5px 0 rgb(242 15 55 / 12%);
+    background-color: #f20f37;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    margin: .3125rem 1px;
+    padding: 12px 30px;
+    position: relative;
+    font-size: 12px;
+    min-width: auto;
+    min-height: auto;
+    text-align: center;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    touch-action: manipulation;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+#download-wrapper {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+#download-button {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pdf-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#email-form {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+#email-form input {
+    margin-top: 10vh;
+}
+
+#email-form button {
+    margin-top: 10vh;
+}
+#pdf-icon {
+    height: 6em;
+    width: 6em;
+    margin-right: 5vw;
+}

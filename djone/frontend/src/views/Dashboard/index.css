@@ -1,0 +1,8 @@
+.db-card {
+    cursor: pointer !important;
+    transition: all .2s !important;
+}
+
+.db-card:hover {
+    transform: scale(1.05) translateY(-.2rem) !important;
+}

@@ -1,0 +1,53 @@
+.trh {
+    color: inherit;
+    height: 56px;
+    display: table-row;
+    outline: none;
+    vertical-align: middle;
+    padding: 12px 8px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    text-align: left;
+    color: #f20f37;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-weight: normal;
+}
+.th {
+    padding: 12px 8px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    display: table-cell;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+.table {
+    width: 100%;
+}
+.tr {
+    color: inherit;
+    height: 48px;
+    display: table-row;
+    outline: none;
+    vertical-align: middle;
+}
+.td {
+    padding: 12px 8px;
+    font-size: 0.8125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.87);
+    display: table-cell; 
+    text-align: left;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+.link:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}

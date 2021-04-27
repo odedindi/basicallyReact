@@ -1,0 +1,17 @@
+name: axpo_project
+dependencies:
+  - python=3.9
+  - pip=21.0
+  - psycopg2
+  - pip:
+      - Django==3.1
+      - django-cors-headers==3.7
+      - djangorestframework==3.12
+      - djangorestframework_simplejwt==4.6
+      - Pillow==8.1
+      - drf-yasg==1.20
+      - Markdown==3.3
+      - gunicorn==20.1
+      - flake8==3.9
+      - xhtml2pdf==0.2
+
