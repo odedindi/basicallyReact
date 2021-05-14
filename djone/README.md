@@ -1,5 +1,5 @@
 # Propulsion Academy fullstack bootcamp final project 
-## A prototype for Axpo switzerland , PWA for input, calculate and visualize data for ground measurements of utility poles.
+## A prototype for Axpo switzerland , PWA for input, calculating and visualize data for ground measurements of utility poles.
 
 
 fully dockerised, front and backends
